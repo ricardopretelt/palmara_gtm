@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palmara — Pool side outdoor living</title>
+  <meta name="description" content="Palmara makes the pool side the best seat in the house — shade, comfort, and easy style for the space around your water.">
+  <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+  <link rel="alternate icon" type="image/png" href="icons/favicon-32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    /* Consent Mode default: everything denied until the banner is answered */
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied'});
+    (function(){
+      var c = localStorage.getItem('palmara_consent');
+      if (c === 'accept') gtag('consent','update',{analytics_storage:'granted'});
+      else if (c !== 'reject') document.documentElement.classList.add('consent-pending');
+    })();
+  </script>
+  <!-- Google Tag Manager — replace GTM-XXXXXXX with your container ID -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+  <!-- End Google Tag Manager -->
+  <script src="js/app.js" defer></script>
+</head>
+<body data-page="home">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="site">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html"><img src="icons/palmara-logo.svg" alt="Palmara — home"></a>
+        <form class="nav-search" data-event="search_submit" role="search" autocomplete="off">
+          <input type="search" name="q" placeholder="Search products" aria-label="Search products">
+          <button type="submit" aria-label="Search">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
+          </button>
+        </form>
+        <nav class="main-nav" aria-label="Main">
+          <a href="catalog.html" data-event="catalog_open" data-location="main_nav">Catalog</a>
+          <a href="register.html" data-event="register_open" data-location="main_nav">Register Product</a>
+          <button type="button" class="btn btn-primary" data-event="find_dealer" data-location="main_nav">Find a Dealer</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img class="hero-bg" src="home_images/preview.webp" alt="Golden hour pool side deck shaded by a Palmara umbrella">
+        <div class="hero-overlay">
+          <div class="container">
+            <div class="hero-copy">
+              <h1>There&rsquo;s no side like the pool side.</h1>
+              <p class="hero-sub">Shade, comfort and style around water.</p>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="catalog.html" data-event="catalog_open" data-location="home_hero">Explore the deck</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section carousel-section">
+        <div class="container">
+          <h2>New under the sun</h2>
+          <div class="carousel">
+            <button type="button" class="carousel-arrow" data-event="carousel_nav" data-direction="prev" data-location="home_carousel" aria-label="Previous products">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="carousel-track" id="carousel-track"><!-- Shade-line cards render here from the catalog JSON --></div>
+            <button type="button" class="carousel-arrow" data-event="carousel_nav" data-direction="next" data-location="home_carousel" aria-label="Next products">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section lines-section">
+        <div class="container">
+          <h2>Shop by line</h2>
+          <div class="line-tiles">
+            <a class="line-tile" href="catalog.html?line=shade" data-event="line_select" data-line="shade" data-location="home_lines">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 1 9 9H3a9 9 0 0 1 9-9z"/><line x1="12" y1="12" x2="12" y2="20"/><path d="M12 20a2 2 0 0 0 4 0"/></svg>
+              <h3>Shade</h3>
+              <p>Umbrellas, sails and canopies that keep their cool.</p>
+            </a>
+            <a class="line-tile" href="catalog.html?line=living" data-event="line_select" data-line="living" data-location="home_lines">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4"/><path d="M3 12a2 2 0 0 1 2 2v2h14v-2a2 2 0 0 1 4 0v4H1v-4a2 2 0 0 1 2-2z"/></svg>
+              <h3>Living</h3>
+              <p>Sofas, loungers and tables built to live outside.</p>
+            </a>
+            <a class="line-tile" href="catalog.html?line=accents" data-event="line_select" data-line="accents" data-location="home_lines">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21C7 21 5 16 5 11c5 0 7 2 7 2s2-2 7-2c0 5-2 10-7 10z"/><line x1="12" y1="13" x2="12" y2="21"/></svg>
+              <h3>Accents</h3>
+              <p>Planters, valets and screens that finish the deck.</p>
+            </a>
+            <a class="line-tile" href="catalog.html?line=ground" data-event="line_select" data-line="ground" data-location="home_lines">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="12" y1="3" x2="12" y2="21"/><line x1="3" y1="12" x2="21" y2="12"/></svg>
+              <h3>Ground</h3>
+              <p>Deck tiles that turn concrete into comfort.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section promo-section">
+        <div class="container">
+          <h2>Take a seat. Stay a while.</h2>
+          <div class="promo">
+            <img src="home_images/hero2.png" alt="Cabana collection dining set on a pool side deck at golden hour">
+            <div class="promo-copy">
+              <p class="eyebrow">New collection</p>
+              <h3>Cabana</h3>
+              <p>Dining, lounging and shade. All in the same place.</p>
+              <button type="button" class="btn btn-secondary" data-event="bundle_click" data-bundle="cabana-summer" data-location="home_promo">Summer bundle</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section support-section">
+        <div class="container">
+          <h2>Need help?</h2>
+          <div class="support-cards">
+            <button type="button" class="support-card" data-event="support_contact" data-location="home_support">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13a8 8 0 0 1 16 0"/><rect x="2" y="13" width="4" height="6" rx="1.5"/><rect x="18" y="13" width="4" height="6" rx="1.5"/></svg>
+              <h3>Customer support</h3>
+              <p>Talk to a real person about your setup.</p>
+            </button>
+            <button type="button" class="support-card" data-event="guides_open" data-location="home_support">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H2z"/><path d="M22 4h-7a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h8z"/></svg>
+              <h3>User guides &amp; specs</h3>
+              <p>Setup guides and spec sheets for every product.</p>
+            </button>
+            <button type="button" class="support-card" data-event="warranty_open" data-location="home_support">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.2 7.7-8 9-4.8-1.3-8-4.5-8-9V6z"/><polyline points="9 12 11.5 14.5 15.5 9.5"/></svg>
+              <h3>Warranty</h3>
+              <p>Sun-tough coverage on every Palmara product.</p>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img class="footer-logo" src="icons/palmara-logo.svg" alt="Palmara">
+          <p>Shade, comfort and easy style for the space around your water.</p>
+          <button type="button" class="btn btn-primary" data-event="find_dealer" data-location="footer">Find a Dealer</button>
+        </div>
+        <nav class="footer-col" aria-label="Footer">
+          <h3>Explore</h3>
+          <a href="catalog.html" data-event="catalog_open" data-location="footer">Catalog</a>
+          <a href="register.html" data-event="register_open" data-location="footer">Register Product</a>
+          <a href="privacy.html">Privacy &amp; Cookies</a>
+        </nav>
+        <div class="footer-col">
+          <h3>Support</h3>
+          <button type="button" class="link-btn" data-event="support_contact" data-location="footer">Customer support</button>
+          <button type="button" class="link-btn" data-event="guides_open" data-location="footer">User guides &amp; specs</button>
+          <button type="button" class="link-btn" data-event="warranty_open" data-location="footer">Warranty</button>
+        </div>
+      </div>
+      <p class="footer-note">© 2026 Palmara. A fictional brand built as a GA4 / GTM measurement lab.</p>
+    </footer>
+  </div>
+
+  <aside class="cookie-banner" id="cookie-banner" role="dialog" aria-labelledby="cookie-title">
+    <h3 id="cookie-title">Cookies notice</h3>
+    <p>We use analytics cookies to understand how visitors use Palmara. Accept to help us improve — decline and nothing is tracked. <a href="privacy.html">Privacy &amp; cookies</a>.</p>
+    <div class="cookie-actions">
+      <button type="button" class="btn btn-primary" data-event="consent_update" data-consent="accept">Accept</button>
+      <button type="button" class="btn btn-secondary" data-event="consent_update" data-consent="reject">Decline</button>
+    </div>
+  </aside>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

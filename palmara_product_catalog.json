@@ -1,0 +1,320 @@
+[
+  {
+    "product_slug": "vela-motorized-cantilever",
+    "product_name": "Vela Motorized Cantilever",
+    "line": "Shade",
+    "collection": "",
+    "description": "Push-button shade for the whole seating area. The Vela's motorized cantilever opens, tilts, and closes at the touch of a remote, with a heavy-duty offset arm that keeps the pole out of your way. UV-tough canopy available in Deep Palm and Warm Sand.",
+    "color": {
+      "available": true,
+      "colors": [
+        "Deep Palm",
+        "Warm Sand"
+      ]
+    },
+    "grade": "Dual",
+    "calculator": false,
+    "coupon": false,
+    "warranty": true,
+    "manual": true,
+    "specs": true,
+    "Retail": false
+  },
+  {
+    "product_slug": "costa-cantilever-parasol",
+    "product_name": "Costa Cantilever Parasol",
+    "line": "Shade",
+    "collection": "",
+    "description": "Big shade, small footprint. The Costa's smooth crank-lift cantilever swings a full-size canopy over loungers and dining sets without a center pole. Fade-resistant fabric in Deep Palm and Warm Sand.",
+    "color": {
+      "available": true,
+      "colors": [
+        "Deep Palm",
+        "Warm Sand"
+      ]
+    },
+    "grade": "Residential",
+    "calculator": false,
+    "coupon": false,
+    "warranty": true,
+    "manual": true,
+    "specs": true,
+    "Retail": false
+  },
+  {
+    "product_slug": "cabana-market-umbrella",
+    "product_name": "Cabana Market Umbrella",
+    "line": "Shade",
+    "collection": "Cabana",
+    "description": "The classic pool side silhouette, done right. A crank-open market umbrella with a warm wood-look pole and push-button tilt that pairs perfectly with the Cabana dining set. Canopy in Deep Palm and Warm Sand.",
+    "color": {
+      "available": true,
+      "colors": [
+        "Deep Palm",
+        "Warm Sand"
+      ]
+    },
+    "grade": "Dual",
+    "calculator": false,
+    "coupon": false,
+    "warranty": true,
+    "manual": true,
+    "specs": true,
+    "Retail": false
+  },
+  {
+    "product_slug": "vista-shade-sail",
+    "product_name": "Vista Shade Sail",
+    "line": "Shade",
+    "collection": "",
+    "description": "Sculptural shade that floats over your deck. The Vista triangular sail is cut from breathable UV-blocking mesh with reinforced corners and stainless hardware for a taut, clean install. Available in Deep Palm and Warm Sand.",
+    "color": {
+      "available": true,
+      "colors": [
+        "Deep Palm",
+        "Warm Sand"
+      ]
+    },
+    "grade": "Residential",
+    "calculator": false,
+    "coupon": false,
+    "warranty": true,
+    "manual": true,
+    "specs": true,
+    "Retail": false
+  },
+  {
+    "product_slug": "ancora-umbrella-base-40kg",
+    "product_name": "Ancora Umbrella Base 40 kg",
+    "line": "Shade",
+    "collection": "",
+    "description": "Set it and forget it. The Ancora's 40 kg stone-textured base anchors market umbrellas through gusty afternoons, with a bronze stem and thumb-screw collar that fits standard poles.",
+    "color": {
+      "available": false,
+      "colors": []
+    },
+    "grade": "Dual",
+    "calculator": false,
+    "coupon": false,
+    "warranty": true,
+    "manual": false,
+    "specs": true,
+    "Retail": false
+  },
+  {
+    "product_slug": "cabana-dining-table",
+    "product_name": "Cabana Dining Table",
+    "line": "Living",
+    "collection": "Cabana",
+    "description": "The table your summer gathers around. A round wood-grain top with a built-in umbrella port sits on powder-coated steel legs in Deep Palm, seating four in easy comfort.",
+    "color": {
+      "available": false,
+      "colors": []
+    },
+    "grade": "Dual",
+    "calculator": false,
+    "coupon": false,
+    "warranty": true,
+    "manual": false,
+    "specs": true,
+    "Retail": false
+  },
+  {
+    "product_slug": "cabana-dining-chair",
+    "product_name": "Cabana Dining Chair",
+    "line": "Living",
+    "collection": "Cabana",
+    "description": "Pull up a seat that stays comfortable past dessert. Solid teak frame, wide armrests, and quick-dry cushions in Warm Sand. Built to live outside all season.",
+    "color": {
+      "available": false,
+      "colors": []
+    },
+    "grade": "Dual",
+    "calculator": false,
+    "coupon": false,
+    "warranty": true,
+    "manual": false,
+    "specs": true,
+    "Retail": false
+  },
+  {
+    "product_slug": "cabana-outdoor-sofa",
+    "product_name": "Cabana Outdoor Sofa",
+    "line": "Living",
+    "collection": "Cabana",
+    "description": "Three seats of golden-hour comfort. The Cabana sofa pairs a sculpted teak frame with deep quick-dry cushions, anchoring your pool side lounge without blocking the view.",
+    "color": {
+      "available": false,
+      "colors": []
+    },
+    "grade": "Residential",
+    "calculator": false,
+    "coupon": false,
+    "warranty": true,
+    "manual": false,
+    "specs": true,
+    "Retail": false
+  },
+  {
+    "product_slug": "cabana-reclining-lounge-chair",
+    "product_name": "Cabana Reclining Lounge Chair",
+    "line": "Living",
+    "collection": "Cabana",
+    "description": "From upright to sun-nap in one motion. The Cabana lounger's multi-position backrest, smooth teak frame, and full-length cushion make it the most contested seat on the deck.",
+    "color": {
+      "available": false,
+      "colors": []
+    },
+    "grade": "Residential",
+    "calculator": false,
+    "coupon": false,
+    "warranty": true,
+    "manual": true,
+    "specs": true,
+    "Retail": false
+  },
+  {
+    "product_slug": "cabana-drink-table",
+    "product_name": "Cabana Drink Table",
+    "line": "Living",
+    "collection": "Cabana",
+    "description": "The little table that keeps everything within reach. Matches the Cabana collection with a light wood top and splayed legs, sized for drinks, sunscreen, and a good book.",
+    "color": {
+      "available": false,
+      "colors": []
+    },
+    "grade": "Residential",
+    "calculator": false,
+    "coupon": false,
+    "warranty": true,
+    "manual": false,
+    "specs": true,
+    "Retail": false
+  },
+  {
+    "product_slug": "isla-drink-table",
+    "product_name": "Isla Drink Table",
+    "line": "Living",
+    "collection": "",
+    "description": "A breezy tripod side table that goes wherever the sun does. The Isla's light-toned round top and weather-sealed finish make it the easiest upgrade to any lounge corner.",
+    "color": {
+      "available": false,
+      "colors": []
+    },
+    "grade": "Residential",
+    "calculator": false,
+    "coupon": false,
+    "warranty": true,
+    "manual": false,
+    "specs": true,
+    "Retail": true
+  },
+  {
+    "product_slug": "duna-uv-planter",
+    "product_name": "Duna UV Planter",
+    "line": "Accents",
+    "collection": "",
+    "description": "Greenery that can take the heat. The Duna's long rectangular trough wears a brushed bronze finish over a UV-stabilized body that won't fade, chalk, or crack in full sun.",
+    "color": {
+      "available": false,
+      "colors": []
+    },
+    "grade": "Dual",
+    "calculator": false,
+    "coupon": true,
+    "warranty": true,
+    "manual": false,
+    "specs": true,
+    "Retail": false
+  },
+  {
+    "product_slug": "brisa-towel-valet",
+    "product_name": "Brisa Towel Valet",
+    "line": "Accents",
+    "collection": "",
+    "description": "Fresh towels, right where guests need them. The Brisa rolls pool side on locking casters, with woven storage below and a canvas canopy that keeps everything dry and sun-safe.",
+    "color": {
+      "available": false,
+      "colors": []
+    },
+    "grade": "Commercial",
+    "calculator": false,
+    "coupon": true,
+    "warranty": true,
+    "manual": false,
+    "specs": true,
+    "Retail": false
+  },
+  {
+    "product_slug": "grata-freestanding-panel",
+    "product_name": "Grata Freestanding Panel",
+    "line": "Accents",
+    "collection": "",
+    "description": "Instant privacy, zero digging. The Grata's slatted cedar screen stands on its own weighted feet, softening sightlines around outdoor showers, spas, and lounge corners.",
+    "color": {
+      "available": false,
+      "colors": []
+    },
+    "grade": "Residential",
+    "calculator": false,
+    "coupon": true,
+    "warranty": true,
+    "manual": true,
+    "specs": true,
+    "Retail": false
+  },
+  {
+    "product_slug": "teca-deck-tile",
+    "product_name": "Teca Deck Tile",
+    "line": "Ground",
+    "collection": "",
+    "description": "Real wood underfoot in an afternoon. Teca's grooved hardwood slats snap together over any flat surface: No glue, no nails. Turning concrete into a warm deck.",
+    "color": {
+      "available": false,
+      "colors": []
+    },
+    "grade": "Residential",
+    "calculator": true,
+    "coupon": false,
+    "warranty": true,
+    "manual": true,
+    "specs": true,
+    "Retail": true
+  },
+  {
+    "product_slug": "arena-deck-tile",
+    "product_name": "Arena Deck Tile",
+    "line": "Ground",
+    "collection": "",
+    "description": "Sure footing where it splashes most. Arena's anti-slip composite surface stays grippy when wet and cool in the sun, ideal for pool surrounds and high-traffic walkways.",
+    "color": {
+      "available": false,
+      "colors": []
+    },
+    "grade": "Commercial",
+    "calculator": true,
+    "coupon": false,
+    "warranty": true,
+    "manual": true,
+    "specs": true,
+    "Retail": false
+  },
+  {
+    "product_slug": "pizarra-deck-tile",
+    "product_name": "Pizarra Deck Tile",
+    "line": "Ground",
+    "collection": "",
+    "description": "Pizarra's stone-look porcelain tiles lay flat and level for a refined, low-maintenance pool side floor.",
+    "color": {
+      "available": false,
+      "colors": []
+    },
+    "grade": "Dual",
+    "calculator": true,
+    "coupon": false,
+    "warranty": true,
+    "manual": true,
+    "specs": true,
+    "Retail": false
+  }
+]

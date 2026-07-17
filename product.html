@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product — Palmara</title>
+  <meta name="description" content="Palmara product details — specs, downloads, colorways and where to buy.">
+  <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+  <link rel="alternate icon" type="image/png" href="icons/favicon-32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    /* Consent Mode default: everything denied until the banner is answered */
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied'});
+    (function(){
+      var c = localStorage.getItem('palmara_consent');
+      if (c === 'accept') gtag('consent','update',{analytics_storage:'granted'});
+      else if (c !== 'reject') document.documentElement.classList.add('consent-pending');
+    })();
+  </script>
+  <!-- Google Tag Manager — replace GTM-XXXXXXX with your container ID -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+  <!-- End Google Tag Manager -->
+  <script src="js/app.js" defer></script>
+</head>
+<body data-page="product">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="site">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html"><img src="icons/palmara-logo.svg" alt="Palmara — home"></a>
+        <form class="nav-search" data-event="search_submit" role="search" autocomplete="off">
+          <input type="search" name="q" placeholder="Search products" aria-label="Search products">
+          <button type="submit" aria-label="Search">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
+          </button>
+        </form>
+        <nav class="main-nav" aria-label="Main">
+          <a href="catalog.html" data-event="catalog_open" data-location="main_nav">Catalog</a>
+          <a href="register.html" data-event="register_open" data-location="main_nav">Register Product</a>
+          <button type="button" class="btn btn-primary" data-event="find_dealer" data-location="main_nav">Find a Dealer</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-band">
+        <div class="container"><p class="band-line" id="product-band">&nbsp;</p></div>
+      </section>
+
+      <div class="product-layout" id="product-root"><!-- product renders here from the catalog JSON via ?id= --></div>
+
+      <div class="missing-state" id="product-missing" hidden>
+        <h1>Product not found</h1>
+        <p>We couldn&rsquo;t find that product. Use the Catalog link in the navigation above to browse everything Palmara makes.</p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img class="footer-logo" src="icons/palmara-logo.svg" alt="Palmara">
+          <p>Shade, comfort and easy style for the space around your water.</p>
+          <button type="button" class="btn btn-primary" data-event="find_dealer" data-location="footer">Find a Dealer</button>
+        </div>
+        <nav class="footer-col" aria-label="Footer">
+          <h3>Explore</h3>
+          <a href="catalog.html" data-event="catalog_open" data-location="footer">Catalog</a>
+          <a href="register.html" data-event="register_open" data-location="footer">Register Product</a>
+          <a href="privacy.html">Privacy &amp; Cookies</a>
+        </nav>
+        <div class="footer-col">
+          <h3>Support</h3>
+          <button type="button" class="link-btn" data-event="support_contact" data-location="footer">Customer support</button>
+          <button type="button" class="link-btn" data-event="guides_open" data-location="footer">User guides &amp; specs</button>
+          <button type="button" class="link-btn" data-event="warranty_open" data-location="footer">Warranty</button>
+        </div>
+      </div>
+      <p class="footer-note">© 2026 Palmara. A fictional brand built as a GA4 / GTM measurement lab.</p>
+    </footer>
+  </div>
+
+  <aside class="cookie-banner" id="cookie-banner" role="dialog" aria-labelledby="cookie-title">
+    <h3 id="cookie-title">Cookies notice</h3>
+    <p>We use analytics cookies to understand how visitors use Palmara. Accept to help us improve — decline and nothing is tracked. <a href="privacy.html">Privacy &amp; cookies</a>.</p>
+    <div class="cookie-actions">
+      <button type="button" class="btn btn-primary" data-event="consent_update" data-consent="accept">Accept</button>
+      <button type="button" class="btn btn-secondary" data-event="consent_update" data-consent="reject">Decline</button>
+    </div>
+  </aside>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

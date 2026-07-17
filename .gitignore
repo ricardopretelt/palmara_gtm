@@ -1,0 +1,22 @@
+# Design / planning docs (not part of the deployed site)
+design/
+
+# Sensitive files
+.env
+.env.*
+*.pem
+*.key
+*credentials*
+*secret*
+
+# Claude Code local settings
+.claude/settings.local.json
+CLAUDE.md
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/

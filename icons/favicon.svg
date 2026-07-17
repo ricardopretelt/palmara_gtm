@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Palmara mark">
+  <title>Palmara mark</title>
+  <rect width="64" height="64" rx="12" fill="#E7D8C1"/>
+  <path d="M21.32 36.33 A10.68 10.68 0 0 1 42.68 36.33 Z" fill="#F26D4B"/>
+  <path d="M16.74 42.44 Q22.08 37.86 27.42 42.44 T38.10 42.44 T48.79 42.44" fill="none" stroke="#F26D4B" stroke-width="2.67" stroke-linecap="round"/>
+</svg>
